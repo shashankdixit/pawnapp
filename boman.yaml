@@ -1,0 +1,20 @@
+Auth:
+   project_token: "dd229e4a-d935-446c-a92c-132359eeeb09"
+   customer_token: "5701949f-4512-4189-a1df-46783526dac9"
+
+
+SAST:
+  language: "python"
+  #work_dir: "/home/boxuser/box/repo/django.nV/"
+  #target: "commons-fileupload-1.4.jar"
+
+
+SCA:
+  language: "js"
+#   work_dir: /
+
+Secret_Scan: True
+
+#DAST:
+ # type: "WEB" ## API, WEB, WEB-ADV
+  #URL: "http://demo.testfire.net"
